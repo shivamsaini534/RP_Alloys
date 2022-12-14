@@ -1,0 +1,1001 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 10px;
+}
+
+.text-nav a {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+  color: #222222;
+}
+.section-1 {
+  width: 100%;
+}
+.banner {
+  width: 92%;
+  margin: 0 auto;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.section-1 .text {
+  position: absolute;
+  background: none;
+  width: 50%;
+  left: 150px;
+  top: 200px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90px;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+/* section-2 */
+
+.section-2 {
+  margin: 100px 200px 200px 200px;
+}
+
+.team-2 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ec2232;
+}
+
+.section-2 .heading-2 {
+  width: 55%;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 80px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.section-2 .paragraph {
+  width: 45%;
+  margin-left: 475px;
+  margin-top: -25px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.data .number-1 {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.data .number-1 span {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #ec2232;
+}
+.data .stats-1 {
+  display: inline;
+  font-weight: bold;
+  width: 100%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.data .stats-1 span {
+  width: 100%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.line {
+  width: 1px;
+  height: 154px;
+  left: 744px;
+  top: 1565px;
+  background: #c4c4c4;
+}
+
+/* section-3 */
+
+.container-3 {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+}
+.image-3 {
+  position: absolute;
+  margin-top: -130px;
+}
+.image-3 img {
+  width: 100%;
+}
+.section-3 {
+  margin-left: 200px;
+}
+
+.rectangle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.section-3 .heading-3 {
+  margin-top: 20px;
+  width: 50%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.features {
+  width: 20%;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section-3 .picture img {
+  width: 100%;
+}
+
+.section-3 .half-cut img {
+  height: 225px;
+  width: 20%;
+}
+
+.features p {
+  width: 84%;
+  text-align: center;
+  margin: 15px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+/* section-4 */
+
+.section-4 {
+  margin-top: 150px;
+  margin-left: 120px;
+}
+.container-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-4 {
+  margin-top: 80px;
+  /* width: 600px; */
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 75px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.text-4 {
+  margin-top: 15px;
+  margin-left: 45px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  color: #9198a0;
+}
+
+.box-4 {
+  display: flex;
+  margin-top: 50px;
+}
+
+.line-4 {
+  width: 2px;
+  height: 500px;
+  left: 300px;
+  top: 3706px;
+  background: #ec2232;
+}
+
+.industries {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  width: 100%;
+}
+
+.name {
+  margin-top: 15px;
+  display: flex;
+  width: 50%;
+}
+
+.number-4 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 5px;
+  color: #f0e3d8;
+}
+
+.picture-4 {
+  margin-left: 15px;
+}
+
+.list {
+  margin-left: 15px;
+}
+
+.name-4 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #222222;
+}
+
+.about {
+  margin-top: 15px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+
+/* section-5 */
+
+.section-5 .picture-5 {
+  position: absolute;
+  width: 100%;
+}
+.section-5 .box-5 {
+  position: absolute;
+  width: 37%;
+  top: 125px;
+  left: 125px;
+}
+
+.section-5 {
+  position: relative;
+  width: 100%;
+  margin-top: 150px;
+}
+.picture-5 img {
+  width: 100%;
+}
+
+.box-5 .text-5 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.box-5 .heading-5 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.box-5 .about-5 {
+  width: 100%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.feature-box {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.feature-box .number-5 {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 51px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.feature-box .detail {
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+/* section-6 */
+
+.section-6 {
+  width: 100%;
+  margin-top: 950px;
+}
+
+.picture-6 {
+  width: 80%;
+  margin: 100px;
+}
+
+.picture-6 img {
+  width: 100%;
+}
+
+/* section-7 */
+
+.section-7 {
+  width: 100%;
+}
+
+.container-7 {
+  display: flex;
+  width: 100%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 65px;
+  line-height: 85px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.head-7 {
+  width: 100%;
+  height: 30px;
+  color: white !important;
+  font-family: "AvertaStd-Regular";
+  font-size: 30px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #192437;
+}
+
+.form {
+  width: 50%;
+  background: #0e3466;
+  padding: 60px 120px;
+}
+
+.picture-7 img {
+  width: 100%;
+}
+
+.content-7 {
+  padding: 10px 25px;
+}
+
+.ray {
+  width: 22%;
+  height: 1px;
+  background: #ffffff;
+}
+
+.input-1 {
+  width: 100%;
+  height: 40px;
+  font-size: 10px;
+  background: #ffffff;
+  border-radius: 7.75258px;
+}
+
+.input-2 {
+  width: 100%;
+  height: 40px;
+  font-size: 10px;
+  background: #ffffff;
+  border-radius: 7.75258px;
+}
+
+.input-3 {
+  width: 100%;
+  height: 40px;
+  font-size: 10px;
+  background: #ffffff;
+  border-radius: 7.75258px;
+}
+
+.input-4 {
+  width: 100%;
+  height: 70px;
+  font-size: 10px;
+  background: #ffffff;
+  border-radius: 7.75258px;
+}
+button {
+  width: 195px;
+  height: 61px;
+  border: none;
+  background: #ec2232;
+  border-radius: 40.2445px;
+}
+
+.submit {
+  width: 80px;
+  height: 35px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.map-box {
+  position: relative;
+  background: #f8f8f8;
+  width: 50%;
+}
+
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  left: -100px;
+  top: 50px;
+}
+
+.map {
+  width: 65%;
+}
+.detail-7 {
+  padding: 0 20px;
+  width: 35%;
+  background: #ffffff;
+}
+
+.heading-7 {
+  width: 100%;
+  font-family: "AvertaStd-Regular";
+  font-size: 20px;
+  line-height: 10px;
+  letter-spacing: 0.03em;
+  color: #192437;
+}
+
+.adress-box {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  background: #ffffff;
+}
+
+.line-7 {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background: #c4c4c4;
+}
+
+.text-7 {
+  width: 100%;
+  padding-top: 15px;
+  font-family: "AvertaStd-Light";
+  font-size: 16px;
+  line-height: 18px;
+  color: #828282;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  background: #181818;
+}
+
+.section-8 {
+  width: 100%;
+  display: flex;
+}
+
+.content-8 {
+  width: 33.33%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.industry-name {
+  display: flex;
+  width: 100%;
+  margin-left: 25px;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.container-8 {
+  flex-direction: column;
+  display: flex;
+  margin-left: 45px;
+}
+
+.wrapper {
+  display: flex;
+  text-align: initial;
+}
+.about-us {
+  width: 100%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.sub-name {
+  width: 45%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.line-8 {
+  width: 1px;
+  background: #c4c4c4;
+  opacity: 0.4;
+}
+
+.social {
+  color: white;
+  width: 100%;
+  font-family: "ITC Avant Garde Gothic Std";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.media-item {
+  padding: 0 10px;
+}
+
+/* For mobile view */
+
+@media (min-width: 360px) and (max-width: 749px) {
+  .section-1 .text {
+    position: absolute;
+    background: none;
+    width: 60%;
+    left: 40px;
+    top: 90px;
+    font-weight: 00;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .section-2 {
+    margin: 50px 100px 60px 20px;
+    width: 90%;
+  }
+
+  .team-2 {
+    font-size: 12px;
+    line-height: 0px;
+  }
+  .section-2 .heading-2 {
+    width: 50%;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .section-2 .paragraph {
+    width: 45%;
+    margin-left: 190px;
+    margin-top: -14px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  .data .number-1 {
+    display: flex;
+    width: 80%;
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 85px;
+  }
+  .data .stats-1 {
+    display: inline;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 40px;
+  }
+  .data .number-1 span {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 85px;
+    letter-spacing: -0.02em;
+    color: #ec2232;
+  }
+  .data .stats-1 span {
+    width: 100%;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 35px;
+  }
+  .line {
+    width: 1px;
+    height: 130px;
+    left: 744px;
+    top: 1565px;
+  }
+  .image-3 {
+    position: absolute;
+    margin-top: 0px;
+  }
+  .section-3 {
+    margin-left: 50px;
+  }
+  .section-3 .heading-3 {
+    margin-top: 15px;
+    width: 80%;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 22px;
+  }
+  .rectangle {
+    margin-top: 10px;
+  }
+  .features {
+    margin: 5px;
+  }
+  .features p {
+    width: 100%;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 24px;
+  }
+  .section-3 .half-cut img {
+    height: 72px;
+    width: 20%;
+  }
+  .section-4 {
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+  .heading-4 {
+    margin-top: 70px;
+    width: 80%;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 50px;
+  }
+  .drawing {
+    width: 65%;
+    text-align: end;
+    margin-top: 50px;
+  }
+
+  .drawing img {
+    width: 50%;
+  }
+  .plus img {
+    width: 5%;
+  }
+  .text-4 {
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+    line-height: 0px;
+  }
+  .box-4 {
+    margin-top: 30px;
+  }
+  .number-4 {
+    font-size: 14px;
+  }
+  .picture-4 {
+    margin-left: 5px;
+    width: 100%;
+  }
+  .picture-4 img {
+    width: 100%;
+  }
+  .industries {
+    margin-left: 10px;
+    width: 88%;
+  }
+  .list {
+    margin-left: 10px;
+  }
+  .name-4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .about {
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .section-5 {
+    margin-top: 40px;
+  }
+  .section-5 .box-5 {
+    width: 50%;
+    top: 30px;
+    left: 70px;
+  }
+  .box-5 .text-5 {
+    width: 55%;
+    font-size: 8px;
+  }
+  .box-5 .heading-5 {
+    font-size: 21px;
+    line-height: 25px;
+    width: 82%;
+  }
+  .box-5 .about-5 {
+    width: 100%;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 10px;
+  }
+  .feature-box {
+    margin-top: 10px;
+  }
+  .image-5 {
+    width: 40%;
+  }
+  .image-5 img {
+    width: 100%;
+  }
+  .feature-box .number-5 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .feature-box .detail {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .section-6 {
+    margin-top: 275px;
+  }
+  .picture-6 {
+    width: 90%;
+    margin: 15px;
+  }
+  .container-7 {
+    font-weight: 00;
+    font-size: 16px;
+    line-height: 12px;
+  }
+  .form {
+    padding: 0px 0px;
+  }
+  .content-7 {
+    padding: 20px 15px 20px 2px;
+  }
+  .head-7 {
+    height: 12px;
+    font-size: 15px;
+    margin-top: 5px;
+    line-height: 2px;
+    letter-spacing: 0.03em;
+  }
+  .ray {
+    width: 35%;
+  }
+  .input-1 {
+    width: 100%;
+    height: 22px;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .input-2 {
+    width: 100%;
+    height: 22px;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .input-3 {
+    width: 100%;
+    height: 22px;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .input-4 {
+    width: 100%;
+    height: 20px;
+    font-size: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  .submit {
+    width: 40px;
+    height: 20px;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 15px;
+    margin-top: 10px;
+  }
+  .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    left: 0px;
+    top: 0px;
+  }
+  .detail-7 {
+    width: 60%;
+    background: #ffffff;
+  }
+  .adress-box {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background: #ffffff;
+  }
+  .heading-7 {
+    width: 100%;
+    font-size: 10px;
+    line-height: 9px;
+  }
+  .text-7 {
+    width: 100%;
+    padding-top: 5px;
+    font-size: 6px;
+    line-height: 7px;
+  }
+  .line-7 {
+    margin-top: 5px;
+  }
+  .map {
+    width: 50%;
+  }
+  .section-8 {
+    width: 100%;
+    display: flex;
+    height: 470px;
+  }
+  .content-8 {
+    width: 33.33%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about-us {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .content-8 {
+    width: 33.33%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .container-8 {
+    margin-left: -22px;
+    margin-top: 15px;
+  }
+  .sub-name {
+    width: 45%;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .industry-name {
+    margin-left: 25px;
+    font-size: 14px;
+    line-height: 0px;
+  }
+  .wrapper {
+    margin-top: 20px;
+  }
+  .social {
+    font-size: 8px;
+    line-height: 20px;
+  }
+  .media {
+    margin-top: 20px;
+  }
+  .media-item {
+    padding: 0 5px;
+    width: 25%;
+  }
+}
